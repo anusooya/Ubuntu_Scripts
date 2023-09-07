@@ -42,5 +42,5 @@ else
     aws ec2 reboot-instances --instance-ids i-0beaafebc128c5ed3
 fi
 
-#Push reporting results to AWS S3 bucket from Ubuntu
- aws s3 sync reports/ s3://anu-ubuntu-reports
+
+ 
